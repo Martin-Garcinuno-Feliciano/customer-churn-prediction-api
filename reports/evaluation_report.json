@@ -1,0 +1,43 @@
+{
+    "note": "This evaluation is run on the full processed dataset. For model selection, see reports/metrics.json, which uses a train/test split.",
+    "metrics": {
+        "accuracy": 0.8234,
+        "precision": 0.7067,
+        "recall": 0.5736,
+        "f1_score": 0.6332,
+        "roc_auc": 0.8742
+    },
+    "confusion_matrix": {
+        "true_negative": 4718,
+        "false_positive": 445,
+        "false_negative": 797,
+        "true_positive": 1072
+    },
+    "classification_report": {
+        "No Churn": {
+            "precision": 0.8554850407978242,
+            "recall": 0.9138098005035832,
+            "f1-score": 0.8836860835362428,
+            "support": 5163.0
+        },
+        "Churn": {
+            "precision": 0.7066578773895847,
+            "recall": 0.5735687533440342,
+            "f1-score": 0.6331955109273479,
+            "support": 1869.0
+        },
+        "accuracy": 0.8233788395904437,
+        "macro avg": {
+            "precision": 0.7810714590937045,
+            "recall": 0.7436892769238087,
+            "f1-score": 0.7584407972317954,
+            "support": 7032.0
+        },
+        "weighted avg": {
+            "precision": 0.8159290157110779,
+            "recall": 0.8233788395904437,
+            "f1-score": 0.8171094509699708,
+            "support": 7032.0
+        }
+    }
+}

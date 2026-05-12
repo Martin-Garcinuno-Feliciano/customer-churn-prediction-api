@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+jupyter
+fastapi
+uvicorn
+pydantic
+joblib
+python-multipart
+
+mlflow
