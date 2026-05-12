@@ -1,27 +1,17 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual environments
+# Virtual environment
 .venv/
-venv/
-env/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
 # OS files
 .DS_Store
 Thumbs.db
-
-# Local environment files
-.env
-
-# Model artifacts
-models/*.pkl
-
-# Data files
-data/raw/*.csv
-data/processed/*.csv
