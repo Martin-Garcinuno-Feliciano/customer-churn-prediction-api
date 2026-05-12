@@ -115,7 +115,6 @@ def main() -> None:
         trained_models[model_name] = pipeline
 
     # Select best model by ROC-AUC.
-    # For churn use cases, recall is also important, but ROC-AUC is a stable general ranking metric.
     best_model_name = max(results, key=lambda name: results[name]["roc_auc"])
     best_model = trained_models[best_model_name]
 
